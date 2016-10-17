@@ -1,6 +1,6 @@
 ---
 username: "swift"
-group: {{ username }}
+group: "{{ username }}"
 source_dir: "/home/{{ username }}/source"
 
 # configure gerrit repo to do reviews
