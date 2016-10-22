@@ -2,8 +2,8 @@ Purpose of this Git Repo
 =================================
 This repo provides ansible playbooks to build an SAIO system on
  * Local VirtualBox via Vagrant - default
- * GCE ( Google Cloud Platform ) - in gce subfolder
- * AWS ( Amazon Web Service / EC2 ) - in aws subfolder
+ * GCE ( Google Cloud Platform ) - in [gce subfolder](https://github.com/chianingwang/saio-ansible/tree/master/gce)
+ * AWS ( Amazon Web Service / EC2 ) - in [aws subfolder](https://github.com/chianingwang/saio-ansible/tree/master/aws)
 
 1. Before start, Please make sure you do install ansible
 `sudo pip install ansible`
