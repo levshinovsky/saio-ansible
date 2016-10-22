@@ -1,5 +1,5 @@
 ---
-username: "swift"
+username: "vagrant" #if you are using vagrant then put vagrant, if you are running gce then put swift
 group: "{{ username }}"
 source_dir: "/home/{{ username }}/source"
 

@@ -20,6 +20,5 @@
     command: make chdir={{ source_dir }}/liberasurecode
 
   - name: build liberasurecode - make install
+    become_user: "{{ username }}"
     command: sudo make install chdir={{ source_dir }}/liberasurecode
-
-
